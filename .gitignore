@@ -2,3 +2,12 @@
 *.ez
 /build
 erl_crash.dump
+
+node_modules
+dist
+build
+*.log
+*.tmp
+*.cache
+.env
+.env.*
