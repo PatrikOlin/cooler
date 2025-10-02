@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("/static/fonts/SpaceGroteskVariableFont_wght.ttf")
+        format("truetype");
+}
+
+@theme {
+    --font-heading: "SpaceGrotesk", sans-serif;
+
+    /* colors */
+}

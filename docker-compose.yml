@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  cooler:
+    build: .
+    container_name: cooler
+    restart: unless-stopped
+    ports:
+      - "3000:80"
